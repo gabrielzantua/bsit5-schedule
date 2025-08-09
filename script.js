@@ -198,7 +198,7 @@ function handleSearch(e) {
 function initTimeHighlighting() {
     const now = new Date();
     const currentHour = now.getHours();
-    const currentDay = now.getDay(); // 0 = Sunday, 1 = Monday, etc.
+    const currentDay = now.getDay();
     
 
     const dayMapping = {
